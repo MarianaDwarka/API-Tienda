@@ -48,7 +48,7 @@ Además de eso, cada clase debe tener los siguientes atributos:
 - String apellido
 - String dni
 
-### Requerimientos
+### Implementación
 
 A partir del análisis realizado respecto al modelado se desarrollaron los siguientes puntos:
 
@@ -58,11 +58,11 @@ A partir del análisis realizado respecto al modelado se desarrollaron los sigui
    - Métodos HTTP: GET, POST, DELETE, PUT
 3. CRUD completo de ventas
    - Métodos HTTP: GET, POST, DELETE, PUT
-4. Obtener todos los productos cuya cantidad_disponible sea menor a 5
+4. Obtención de todos los productos cuya cantidad_disponible sea menor a 5
    - Métodos HTTP: GET
-5. Obtener la lista de productos de una determinada venta
+5. Obtención de la lista de productos de una determinada venta
    - Métodos HTTP: GET
-6. Obtener la sumatoria del monto y también cantidad total de ventas de un determinado día
+6. Obtención de la sumatoria del monto y también cantidad total de ventas de un determinado día
    - Métodos HTTP: GET
-7. Obtener el codigo_venta, el total, la cantidad de productos, el nombre del cliente y el apellido del cliente de la venta con el monto más alto de todas.
+7. Obtención del codigo_venta, el total, la cantidad de productos, el nombre del cliente y el apellido del cliente de la venta con el monto más alto de todas.
    - Métodos HTTP: GET
